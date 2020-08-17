@@ -30,12 +30,13 @@ body {
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background-color: #DEF2F1;
   color: #17252A;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
+
 
 
 .navbar-header button.navbar-toggle {
@@ -64,4 +65,19 @@ body {
 	margin-bottom: 20px;
 	height: auto;
 
+}
 
+@media (max-width: 768px) {
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background: #E7E7E7;
+}
+#nav-list a {
+  color: #17252A;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: #17252A;
+  color: #E7E7E7;
+}
+}
