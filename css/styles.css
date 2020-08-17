@@ -13,10 +13,7 @@ body {
   border: 0;
   margin-bottom: 0px;
 }
-
-
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+.navbar-brand h1 {
   color: #DEF2F1;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -24,9 +21,10 @@ body {
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
+  float: left;
+  margin: 0px;
   line-height: .75;
 }
-
 #nav-list a {
   color: #DEF2F1;
   text-align: center;
@@ -47,9 +45,8 @@ body {
 /* END HEADER */
 
 /* HOME PAGE */
-#container {
-
-
+.container {
+	margin-left: 0px;
     height: auto;
 
 }
@@ -63,7 +60,8 @@ body {
 
 	color: black;
 	background-color: #DEF2F1;
-	padding: 10px;
-	margin: 10px;
-}
+	padding: 20px;
+	margin-bottom: 20px;
+	height: auto;
+
 
